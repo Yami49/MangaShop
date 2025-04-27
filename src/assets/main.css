@@ -1,0 +1,167 @@
+/* Allgemeine Seiten-Einstellungen */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2D0E46; /* Dunkellila */
+    color: #f1f5f9; /* Sehr helles Grau */
+  }
+  
+  /* Container */
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #4C1D95; /* Etwas helleres Lila */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav-icons button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    background-color: #dc2626; /* Kirschrot */
+    border: none;
+    color: white;
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #b91c1c; /* Dunkleres Rot beim Hover */
+  }
+  
+  .hero-image {
+    margin-top: 2rem;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  /* Info Section */
+  .info-section {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 1rem;
+  }
+  
+  .info-card {
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  .info-image {
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Kategorien */
+  .categories {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .categories-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .category-button {
+    background-color: #6D28D9; /* Violettes Button-Farbthema */
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .category-button:hover {
+    background-color: #5b21b6;
+  }
+  
+  /* Features */
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #3C1A79; /* Etwas dunklerer Bereich */
+  }
+  
+  /* Call to Action */
+  .call-to-action {
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #4C1D95;
+    font-size: 0.9rem;
+    margin-top: auto;
+  }
+  
+  /* Responsive Optimierungen */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 0.6rem 1.5rem;
+    }
+  
+    .info-image {
+      width: 120px;
+    }
+  
+    .section-title {
+      font-size: 1.5rem;
+    }
+  }
+  
